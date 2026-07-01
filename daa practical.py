@@ -94,8 +94,8 @@ def performance_analysis():
 
 
 # --- Main Program ---
-arr=
-arr = [2, 5, 10, 15, 23, 35, 48, 60, 75, 90, 105, 120]
+arr = list(map(int, input("Enter numbers: ").split()))
+print(arr)
 target =int(input("enter the number to search from the list: "))
 
 idx, comps = interpolation_search(arr, target)
